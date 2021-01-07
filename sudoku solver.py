@@ -48,11 +48,11 @@ def is_valid(board, val, pos):
     return True
 
 def solve(board):
-    ran_slot = get_empty_slot(board)
-    if not ran_slot:
+    random_slot = get_empty_slot(board)
+    if not random_slot:
         return True
     else:
-        row, col = ran_slot
+        row, col = random_slot
     
     for val in range(1, 10):
         if is_valid(board, val, (row, col)):
