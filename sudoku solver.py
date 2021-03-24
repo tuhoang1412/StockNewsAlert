@@ -20,7 +20,7 @@ def print_board(board):
             if i == 8:
                 print(e)
             else:
-                print(str(e) + " ", end="")
+                print(str(e) + " ", end = "")
 
 def get_empty_slot(board):
     for row in range(ROW_LENGTH):

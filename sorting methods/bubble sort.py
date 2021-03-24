@@ -14,6 +14,7 @@ Average case: O(n^2) swaps, actually half of the worst case
 Worst case: O(n^2) swaps when the array is in reversed order
 Space complexity: O(1) -> swapping
 """
+#Comparing consecutive pairs and swapping
 
 #Original method
 def Orgn(sequence):
